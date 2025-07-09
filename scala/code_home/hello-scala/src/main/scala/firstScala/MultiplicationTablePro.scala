@@ -20,6 +20,5 @@ object MultiplicationTablePro {
       println()
     }
 
-    println(${1+1})
   }
 }

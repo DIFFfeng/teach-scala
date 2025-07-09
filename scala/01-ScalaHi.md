@@ -4,7 +4,11 @@
 
 ![image-20250709214705688](./assets/image-20250709214705688.png)
 
-万物皆对象
+万物皆对象，编写起来很简洁，轻松调用java类库
+
+![image-20250710001705824](./assets/image-20250710001705824.png)
+
+
 
 
 
@@ -227,3 +231,34 @@ import scala.io.StdIn
 val size = StdIn.readInt()
 // val size: Int = StdIn.readInt()  // 完整写法
 ```
+
+
+
+参考代码
+
+```scala
+import scala.io.StdIn
+
+object MultiplicationTablePro {
+  def main(args: Array[String]): Unit = {
+    print("请输入乘法表的大小：")
+    val size = StdIn.readInt()
+
+    // 验证输入是否为正整数
+    if (size <= 0) {
+      println("错误：请输入大于 0 的整数！")
+      return
+    }
+
+    for (i <- 1 to size) {
+      for (j <- 1 to i) {
+        print(s"$j × $i = ${i * j}\t")
+      }
+      println()
+    }
+
+  }
+}
+
+```
+

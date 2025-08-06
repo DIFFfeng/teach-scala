@@ -267,3 +267,6 @@ object MultiplicationTablePro {
 
 1、在Ubuntu环境安装Scala并且配置好idea框架支持
 2、编写Scala代码案例 巩固变量、函数定义、循环、类型声明
+
+
+2025年8月6日 
